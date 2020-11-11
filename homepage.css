@@ -1,0 +1,23 @@
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+}
+nav {
+    width: 80%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+header div {
+    margin: auto;
+}
+table {
+    width: 100%;
+}
+td {
+    height: 200px;
+    background-color: gray;
+}
