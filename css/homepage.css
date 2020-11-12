@@ -14,10 +14,10 @@ nav ul {
 header div {
     margin: auto;
 }
-table {
-    width: 100%;
+.container {
+    width: auto;
+    display: flex;
 }
-td {
-    height: 200px;
-    background-color: gray;
+.card {
+    width: 20%;
 }
