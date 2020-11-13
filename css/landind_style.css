@@ -37,3 +37,6 @@ article button {
 .testimonials {
     display: flex;
 }
+footer {
+    display: flex;
+}
