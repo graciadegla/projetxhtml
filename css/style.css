@@ -29,6 +29,7 @@ header div {
 }
 header i {
     height: 15px;
+    margin: auto 10px;
 }
 article {
     height: auto;

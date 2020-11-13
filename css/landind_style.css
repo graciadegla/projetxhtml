@@ -1,0 +1,39 @@
+body {
+    font-size: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+nav {
+    width: 75%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin: auto 5px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+header div {
+    display: flex;
+    margin-top: 0px;
+}
+header i {
+    height: 15px;
+    margin: auto 10px;
+}
+article button {
+    height: 30px;
+    font-size: 15px;
+}
+.testimonials {
+    display: flex;
+}
