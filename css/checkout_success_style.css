@@ -1,6 +1,7 @@
 body {
     font-size: 20px;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -8,98 +9,60 @@ header {
     width: 100%;
     height: auto;
 }
+
 nav {
     width: 70%;
 }
+
 nav ul {
     list-style: none;
     display: flex;
 }
-ul li {
+
+nav li {
     margin: auto 5px;
 }
+
 nav a {
     text-decoration: none;
     color: black;
 }
+
 header div {
     display: flex;
     margin-top: 0px;
-    font-size: 100%;
 }
+
 header i {
     height: 15px;
     margin: auto 10px;
 }
 
-.cardproduct {
-    display: flex;
-}
-.productimage {
-    border: 2px solid black;
-    width: 55%;
-}
-.producti {
-    width: 100%;
-}
-.versionsprod {
-    display: flex;
-    align-items: flex-start;
-    border-top: 2px solid black;
-}
-
-.price {
-    width: 40%;
-    margin: auto 30px;
-}
-.price div {
-    display: flex;
-    justify-content: center;
-}
-.price h1 {
-    margin: auto 20px;
-}
-.price h4 {
+article {
+    height: auto;
     margin: 10px 40px;
-}
-.b1 {
-    width: 120px;
-    height: 30px;
-    margin: 20px 10px;
-}
-#choosesize {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
-}
-#quantity {
-    width: 25%;
-    height: 25px;
-    margin-bottom: 10px;
-}
-.add {
-    width: 80%;
-    height: 30px;
-    align-self: center;
-    background-color: rgb(98, 98, 192);
-    border-radius: 10px;
-    margin: 10px auto;
-}
-.versionsprod img {
-    max-width: 70px;
-    width: 70px;
-    margin: 5px;
-}
-.relatedpro {
-    display: flex;
-    justify-content: space-evenly;
+    background-image: url();
 }
 
-.relatedpro img {
-    max-height: 200px;
-    width: 17%;
-    margin: 10px;
+li {
+    margin-left: 2px;
+    margin-right: 2px;
 }
+
+.container {
+    display: flex;
+}
+.col1 {
+    width: 60%;
+}
+.col1-1 {
+    display: flex;
+    align-items: baseline;
+}
+.col2 {
+    width: 30%;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -178,7 +141,7 @@ ul {
 }
 
 
-a {
+/*a {
     text-decoration-line: none;
     color: black;
-}
+}*/

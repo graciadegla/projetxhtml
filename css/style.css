@@ -80,6 +80,10 @@ article button {
     border-radius: 10px;
 }
 
+#hoodies_pink {
+    background-image: url(img/hoodies_pink_levis.jfif);
+}
+
 footer {
     display: flex;
     align-items: center;
