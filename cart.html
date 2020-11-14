@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/checkout_shipping.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
-    <title>Checkout-Shipping</title>
+    <title>Cart</title>
 </head>
 <body>
     <header>
@@ -19,36 +19,36 @@
         </nav>
         <div class="icone"><i class="fa fa-search"></i> <i class="fa fa-shopping-cart">Cart (1)</i></div>
     </header>
-    <p>Cart > Customer information > Shipping information > Payement method </p>
-    <hr>
     <section class="container">
-        <div class="col1">
-            <div class="shipping">
-                <h3>Shipping information :</h3>
-                <p>12 Waldo Point Road Mishauken, NY 11200 United States</p>
-            
+        <div class="groupproduct">
+            <h3>Your Cart</h3>
+            <hr>
+            <div class="product">
+                <p>Item</p>
+                <p>Price</p>
+                <p>Quantity</p>
             </div>
             <hr>
-            <h4>Shipping method</h4>
-            <div class="choices">
-                <div class="radio">
-                    <div><input type="radio"> Hoodies pink</div> 
-                    <div><input type="radio"> Hoodies society</div> 
-                    <div><input type="radio"> Hoodies series</div>
-                    <div><input type="radio"> Hoodies personnalizables</div> 
+            <div class="product">
+                <img src="img/hoodies_flammes_blues.jfif" alt="" width="90" height="90"> 
+                <div>
+                    <p>Hoodie flamme bleu</p>
+                    <p>Size : Small</p>
                 </div>
                 <div>
-                    <p>$2.20</p>
-                    <p>$5.50</p>
-                    <p>$9.50</p>
-                    <p>$12.50</p>
+                    <p>$20.00</p>
+                </div>
+                <div>
+                    <select name="quantity" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
                 </div>
             </div>
             <hr>
-            <div class="direction">
-                <a href="">< Return to the Customer information</a>
-                <button>Continue to Payement </button>
-            </div>
+            <p class="subtotal">Subtotal: <strong>$20.00</strong></p>
         </div>
         <div class="col2">
             <h4>Summary (1 item)</h4>

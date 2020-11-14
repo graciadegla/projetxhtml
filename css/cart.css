@@ -52,30 +52,16 @@ li {
 .container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
 }
-.shipping {
-    display: flex;
-    align-items: center;
+.groupproduct {
+    display: block;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px auto;
 }
-.choices {
+.product {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-.radio input {
-    margin: 15px auto;
-}
-.direction {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.direction button {
-    height: 30px;
-    width: 190px;
-    border-radius: 10px;
-    background-color: rgb(71, 71, 163);
 }
 .col2 {
     width: 30%;
@@ -111,7 +97,9 @@ li {
     height: 30px;
     box-shadow: 0px 0px 2px 2px;
 }
-
+.subtotal {
+    text-align: right;
+}
 footer {
     display: flex;
     align-items: center;
