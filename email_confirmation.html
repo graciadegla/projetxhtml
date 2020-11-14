@@ -3,23 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="email_confirmation.html">
+    <link rel="stylesheet" href="css/email_confirmation.css">
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
     <title>Email Confirmation</title>
 </head>
 <body>
-    <section class=".container">
+    <section class="container">
         <h2>Order 312125325</h2>
         <hr>
-        <div>
+        <div class="expediteur">
             <div>hello@hoodiesyours.com <br> to me</div>
-            <div><i></i></div>
+            <div><i class="fa fa-undo-alt"></i></div>
         </div>
-        <div>
+        <div class="titre">
             <i class="fas fa-star-half-alt fa-4x">Hoodiesyour's</i>
             <h3>Thanks for purchase</h3>
+            <p>Hi Michael, we're getting ready to be shipped. We will notify you when he has been sent</p>
+            <button>View your order</button> or <a href="">Visit our store</a>
         </div>
-        <div></div>
+        <hr>
+        <h3 class="OrSum">Order Summary</h3>
+        <div class="groupproduct">
+            <div class="product">
+                <img src="img/hoodies_flammes_blues.jfif" alt="" width="90" height="90"> 
+                <div>
+                    <p>Hoodie flamme bleu</p>
+                    <p>Size : Small</p>
+                </div>
+            </div>
+            <div>
+                <p>$20.00</p>
+            </div>
+        </div>
+        <hr>
+        <div class="facture0">
+            <div class="vide0"></div>
+            <div class="enum0">
+                <div class="facture">
+                  <div class="enumere">
+                    <div>
+                        <p>Subtotal</p>
+                        <p>Shipping</p>
+                        <p>Tax</p>
+                    </div>
+                    <div>
+                        <p>$20.00</p>
+                        <p>$2.20</p>
+                        <p>$1.40</p>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class="enumere">
+                    <p>Total</p>
+                    <p>$23.60</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="col1">
+            <h3>Customer information</h3>
+            <div class="customer">
+                <div class="infos">
+                    <h4>Shipping address</h4>
+                    <p>Kenny Bostick</p>
+                    <p><a href="">12 Waldo Point Road Mishauken, NY 11200 United States</a></p>
+                    <h5>Shipping Method</h5>
+                    <p>UPS Ground (Estimated ship time of 4-6 days)</p>
+                </div>
+                <div class="infos">
+                    <h4>Billing address</h4> 
+                    <p>Kenny Bostick</p> 
+                    <p><a href="">12 Waldo Point Road Mishauken, NY 11200 United States</a></p> 
+                    <h5>Payement Method</h5> 
+                    <p><i class="fab fa-cc-visa"></i> Ending in 3217- $23,60</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">If you have any question, reply to this email or contact us at hello@hoodiesyours.com</p>
     </section>
 </body>
 </html>
