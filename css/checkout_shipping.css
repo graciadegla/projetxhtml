@@ -1,0 +1,196 @@
+body {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: auto 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header div {
+    display: flex;
+    margin-top: 0px;
+}
+
+header i {
+    height: 15px;
+    margin: auto 10px;
+}
+
+article {
+    height: auto;
+    margin: 10px 40px;
+    background-image: url();
+}
+
+li {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.shipping {
+    display: flex;
+    align-items: center;
+}
+.choices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.radio input {
+    margin: 15px auto;
+}
+.direction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.direction button {
+    height: 30px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 163);
+}
+.col2 {
+    width: 30%;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+.col2 h4 {
+    margin: 20px 25px; 
+    padding: 10px;
+}
+.facture {
+    display: flex;
+    justify-content: space-between;
+}
+.facture div {
+    margin: auto 20px;
+}
+.facturesub {
+    display: flex;
+    flex-wrap: wrap;
+}
+.facturesub label {
+    width: 100%;
+    margin: 5px 20px;
+}
+.facturesub input {
+    width: 60%;
+    height: 25px;
+    margin-left: 20px;
+}
+.facturesub button {
+    width: 20%;
+    height: 30px;
+    box-shadow: 0px 0px 2px 2px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    width: 30%;
+}
+
+.nav-footer {
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-self {
+    align-self: flex-end;
+}
+
+.flex-align-end {
+    justify-items: flex-end;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.has-element-at-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.has-item-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.has-text-center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-justify-items-end {
+    justify-content: flex-end;
+}
+
+
+/*a {
+    text-decoration-line: none;
+    color: black;
+}*/
