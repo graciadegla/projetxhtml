@@ -5,13 +5,13 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: transparent;
     width: 100%;
     height: auto;
 }
-
 nav {
-    width: 70%;
+    margin-left: -45px;
 }
 
 nav ul {
@@ -188,7 +188,11 @@ ul {
 .flex-justify-items-end {
     justify-content: flex-end;
 }
-
+button {
+    background-color: rgb(68, 68, 218);
+    color: white;
+    border-radius: 5px;
+}
 
 a {
     text-decoration-line: none;

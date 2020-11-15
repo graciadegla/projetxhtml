@@ -4,12 +4,13 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: transparent;
     width: 100%;
     height: auto;
 }
 nav {
-    width: 70%;
+    margin-left: -45px;
 }
 nav ul {
     list-style: none;
@@ -58,6 +59,9 @@ li {
     margin: auto 10px;
     text-align: justify;
 }
+.testimonials i {
+    margin: auto 10px;
+}
 .featurecard {
     height: auto;
     margin: 10px 40px;
@@ -80,7 +84,7 @@ aside {
     align-items: center;
 }
 aside i {
-    height: 10px;
+    margin: auto;
 }
 footer {
     display: flex;
@@ -173,6 +177,11 @@ ul {
 
 .space-evenly {
     justify-content: space-evenly;
+}
+button {
+    background-color: rgb(68, 68, 218);
+    color: white;
+    border-radius: 5px;
 }
 
 a {

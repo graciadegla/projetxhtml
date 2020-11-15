@@ -5,13 +5,13 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: transparent;
     width: 100%;
     height: auto;
 }
-
 nav {
-    width: 70%;
+    margin-left: -45px;
 }
 
 nav ul {
@@ -92,9 +92,26 @@ article button {
 }
 
 #hoodies_pink {
-    background-image: url(img/hoodies_pink_levis.jfif);
+    background-image: url("/img/hoodies_pink_levis.jfif");
 }
-
+#hoodies_blackw {
+    background-image: url("/img/hoodies_panda.jfif");
+}
+#hoodie-friends {
+    background-image: url("/img/hoodies_friends.jfif");
+}
+#hoodies-flammesblue {
+    background-image: url("/img/hoodies_flammes_blues.jfif");
+}
+#hoodies-paint {
+    background-image: url("/img/61DshtkZSKL._AC_UY445_.jpg");
+}
+#hoodies-donaldtrump {
+    background-image: url("/img/hoodie-donaldtrump.jfif");
+}
+#hoodies_doubleface {
+    background-image: url("/img/double-face.jfif");
+}
 footer {
     display: flex;
     align-items: center;

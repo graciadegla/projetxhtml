@@ -35,3 +35,8 @@ body {
 .infos {
     width: 30%;
 }
+button {
+    background-color: rgb(68, 68, 218);
+    color: white;
+    border-radius: 5px;
+}
